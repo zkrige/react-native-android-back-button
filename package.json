@@ -5,8 +5,7 @@
   "main": "lib/index.js",
   "author": "Scott Luptowski",
   "scripts": {
-    "compile": "babel -d lib/ src/",
-    "prepublish": "npm run compile"
+    "compile": "babel -d lib/ src/"
   },
   "babel": {
     "presets": [
