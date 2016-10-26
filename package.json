@@ -1,0 +1,39 @@
+{
+  "name": "react-native-android-back-button",
+  "version": "0.1.0",
+  "description": "React Native Android Back Button",
+  "main": "lib/index.js",
+  "author": "Scott Luptowski",
+  "scripts": {
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottluptowski/react-native-android-back-button.git"
+  },
+  "homepage": "https://github.com/scottluptowski/react-native-android-back-button",
+  "keywords": [
+    "react-native",
+    "android",
+    "backandroid",
+    "react-side-effect"
+  ],
+  "dependencies": {
+    "react-side-effect": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.18.0",
+    "react": "^15.3.2",
+    "react-native": ">=0.32.0"
+  }
+}
